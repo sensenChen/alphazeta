@@ -2,9 +2,10 @@
   "name": "alphazeta",
   "version": "1.0.0",
   "description": "online store for anything",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +18,6 @@
   },
   "homepage": "https://github.com/sensenChen/alphazeta#readme",
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "express": "^4.16.2",
   }
 }
